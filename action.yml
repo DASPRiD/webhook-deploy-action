@@ -1,0 +1,13 @@
+name: 'Webhook Deploy'
+description: 'Deploy artifact to a webhook'
+author: "Ben Scholzen 'DASPRiD"
+inputs:
+  url:
+    required: true
+    description: 'URL of the webhook'
+  secret:
+    required: true
+    description: 'Secret to hash with the contents'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
