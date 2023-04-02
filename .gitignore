@@ -1,6 +1,3 @@
 /node_modules
-/coverage
-/dist
-/ssm-config.json
 npm-debug.log*
 .eslintcache
